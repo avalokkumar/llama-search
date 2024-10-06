@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: llama-search
+
+server:
+  port: 8080
+  # If you need to set any configurations related to external services, like the LLaMA model
+llama:
+  service:
+    url: http://localhost:8000/search
